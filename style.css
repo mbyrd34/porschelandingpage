@@ -1,0 +1,198 @@
+body{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-image: url("backdrop_mobile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+    font-weight: 500;
+  color:rgba(0, 0, 0, 0.612);
+  text-shadow: 2px 2px 4px rgb(119, 20, 20);
+  font-size: 18px;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  justify-content: left;
+  padding: 10px;  
+}
+
+
+
+.imagebox {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  height: 110px;
+  margin-top: 380px;
+}
+
+
+.bodyphotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.bodyphotos img{
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.bodyphotos img:active {
+  transform: scale(2.8);
+  transition: 0.5s;
+  position: fixed;
+  translate: -50% -50%;
+  top: 30%;
+  left: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.755);
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.Specifications {
+  font-size: 25px;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.Specifications img {
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+
+
+.specs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.specs ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
+  background-size: cover;
+  background-color: rgba(150, 186, 180, 0.693);
+  width: 100%;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+
+
+.sectionview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.sectionview img {
+  border-radius: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  color: white;
+  font-style: italic;
+}
+
+.interior {
+  background-color: rgba(0, 0, 0, 0.755);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.interiorphotos {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.interiorphotos img {
+  width: 300px;
+  height: auto;
+  border: 8px inset white;
+  border-radius: 10px;
+}
+
+
+.interiorphotos img:hover {
+  cursor: pointer;
+}
+
+.interior1caption {
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  margin-top: 140px;
+  margin-right: 180px;
+}
+
+.videoshort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.755);
+  width: 100%;
+  height:40vh;
+}
+
+.track {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.track img {
+  border-radius: 10px;
+}
